@@ -60,7 +60,7 @@ def test1(rgb, gb):
     '''
     outcome_test = "Everything good."
 
-    ips_random = rgb.sample(n=10)
+    ips_random = rgb.sample(frac=0.2)
     verification = pd.merge(ips_random[["ip", "number"]], gb[["ip", "date"]],
         on = "ip")
     verificator = sum(verification["number"] == verification["date"])

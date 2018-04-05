@@ -24,4 +24,4 @@ To run the main program:
 # Test the execution
 
 1) Run the main program.
-2) In the command line, python3 insight_testsuite/tests/my_test/run_test.py
+2) In the command line, python3 other_test/run_test.py
