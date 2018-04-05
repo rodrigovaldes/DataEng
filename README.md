@@ -1,16 +1,24 @@
 
+# Description
 
-## This is a repository for a small project on data engineering.
+This is a repository for a small project on data engineering.
 
 # Prerequisites
 
 Please be sure to have installed the following python3 libraries:
+
 itertools
+
 numpy
+
 linecache
+
 datetime
+
 subprocess
+
 os
+
 pandas (just for testing purposes, not used in the main program)
 
 # Run the main program:
